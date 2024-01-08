@@ -1,5 +1,6 @@
 body {
     text-transform:capitalize;
+        background-color: #dddbdb;
 }
 /* navbar */
 header {
@@ -41,7 +42,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%100%;
-    width: 905px;
+    width: -webkit-fill-available;
     height:350px;
     padding: 50px;
     margin-top: 20px;
@@ -66,7 +67,10 @@ text-align: center;
 }
 
 .dpx {
-    display: block;
+    display: inline-block;
+    align-items: center;
+    background-color: #dddbdb;
+    width: -webkit-fill-available;
 }
 #px {
     width: 300px;
@@ -115,10 +119,13 @@ text-align: center;
     margin-left: 350px;
 }
 /* image with divs */
-.all { display: inline-block;
-       width: 800px;
-       margin: 30px 80px;
-       padding: 5px;
+.all {
+    width:-webkit-fill-available;
+    padding: 15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddbdb;
 }
 #st {
     float: left;
